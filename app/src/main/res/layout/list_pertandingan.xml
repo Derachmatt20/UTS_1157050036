@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="20dp" android:id="@+id/parent_layout">
+
+
+    <TextView
+        android:id="@+id/club1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Persib Bandung"
+        android:textColor="#0000FF"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/vs"/>
+
+    <TextView
+        android:id="@+id/club2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginRight="16dp"
+        android:layout_toRightOf="@id/vs"
+        android:text="Tim Lawan"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/vs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Vs"
+        android:textColor="#100"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>

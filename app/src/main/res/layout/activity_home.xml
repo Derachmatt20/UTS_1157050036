@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_list"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="-90dp"
+        android:text="HOME"
+        android:textColor="#0000FF"
+        android:textSize="50sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button_list"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="183dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Daftar  Match"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/button_list"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="-22dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="-100dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Exit"
+        android:textColor="#FFFFFF" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/button_list"
+        android:background="#0000FF">
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:text="About"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/opening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/about"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="-171dp"
+            android:paddingBottom="20sp"
+            android:text="Selamat Datang di Aplikasi Live Score Persib Bandung dalam aplikasi terdapat hasil pertandingan dari Persib Bandung"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+
+        <ImageView
+            android:id="@+id/persib2"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_alignBottom="@+id/opening"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-109dp"
+            android:src="@mipmap/persib_bandung" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
