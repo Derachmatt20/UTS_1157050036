@@ -7,7 +7,7 @@
     tools:context=".Splash_Screen"
     android:id="@+id/splash_screen"
     android:background="#0000FF">
-
+    //layout
 
 
     <ImageView
